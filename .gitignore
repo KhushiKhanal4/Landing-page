@@ -3,7 +3,7 @@ node_modules/
 
 # Tailwind CSS output
 *.css
-!src/styles.css
+!main.css
 
 # Logs
 logs
