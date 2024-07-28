@@ -5,36 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="main.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 </head>
-<body class="bg-blue-100">
-    
-    <nav class="bg-none px-2">
-        <div class="container mx-auto flex justify-between items-center">
-            <img class="w-1/4" src="bookLogo.png" alt="">
-            <div class="block">
-                <button id="menu-button" class="text-white focus:outline-none hover:bg-blue-300 rounded-md">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="27" height="36" color="#000000" fill="none">
-                        <path d="M4 5L20 5" stroke="#003060" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                        <path d="M4 12L20 12" stroke="#003060" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                        <path d="M4 19L20 19" stroke="#003060" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                    </svg>
-                </button>
-            </div>
-    </nav>
-           
-    <div class="max-h-80" >
-        
-        <img class="w-8/12 min-h-80 ml-24 my-10 rounded-tr-3xl rounded-bl-3xl pr-7 bg-sky-700 relative" src="images/img1.jpeg" alt="">
-        
+<body class="bg-black h-screen overflow-hidden">
+    <header class="relative z-10">
+      <nav class="fixed top-0 w-full bg-black bg-opacity-0 px-4 flex justify-between items-center z-20">
+          <img class="animate__animated animate__fadeInDown animate__slow w-24" src="bookLogo.png" alt="Book Logo">
+          <ul class="text-blue-300 text-lg animate__animated animate__fadeInDown animate__slow font-serif flex justify-between gap-10 items-center">
+            <li>Shop</li>
+            <li>Authors</li>
+            <li><span class="flex items-center gap-1">Categories
+                
+                <svg class="-mr-1 h-5 w-5 text-white" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+                  </svg>
+                </span>
+            </li>
+            <li>Contact</li>
+          </ul>
+      </nav>
+    </header>
+    <img class="absolute top-0 left-0 w-full h-full object-cover opacity-60 z-5" src="images/bg-image.jpg" alt="Background Image">
+  </body>
 
-        <img class="absolute z-1 bottom-96 left-9 rounded-full w-24" src="images/img2.jpeg" alt="">
-
-        <img class="absolute z-1 bottom-20 rounded-full w-32" src="images/shop.png" alt="">
-    </div>
-
-<div class="font-custom pl-24 font-bold text-sm">Where Everything You need To Know <div class="pt-2">Is Only An Arms Length Away</div></div>
-
-
-
-</body>
 </html>
