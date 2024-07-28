@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily:{
-         custom:["Lobster", "cursive"],
+         custom1:["Anton", "sans-serif"],
+         custom2:["lobster", "sans-serif"],
       }
     },
   },

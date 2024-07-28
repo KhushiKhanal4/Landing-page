@@ -1,34 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="main.css">
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
+
 <body class="bg-black h-screen overflow-hidden">
     <header class="relative z-10">
-      <nav class="fixed top-0 w-full bg-black bg-opacity-0 px-4 flex justify-between items-center z-20">
-          <img class="animate__animated animate__fadeInDown animate__slow w-24" src="bookLogo.png" alt="Book Logo">
-          <ul class="text-blue-300 text-lg animate__animated animate__fadeInDown animate__slow font-serif flex justify-between gap-10 items-center">
-            <li>Shop</li>
-            <li>Authors</li>
-            <li><span class="flex items-center gap-1">Categories
-                
-                <svg class="-mr-1 h-5 w-5 text-white" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                    <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
-                  </svg>
-                </span>
-            </li>
-            <li>Contact</li>
-          </ul>
-      </nav>
+        <nav class="fixed top-0 w-full bg-opacity-0 sm:px-4 flex justify-between items-center z-20 ">
+            <img class="animate__animated animate__fadeInLeft animate__slow w-24" src="images/book_logo-Photoroom.png" alt="Book Logo">
+
+            <div class="animate__animated animate__fadeInRight animate__slow sm:hidden px-4 cursor-pointer">
+                <div class="h-0.5 w-5  bg-yellow-400 "></div>
+                <div class="h-0.5 w-5 my-1 bg-yellow-400 "></div>
+                <div class="h-0.5 w-5 my-1 bg-yellow-400 "></div>
+            </div>
+
+            <ul
+                class=" hidden text-blue-300 text-lg animate__animated animate__fadeInDown animate__slow font-serif sm:flex sm:justify-between gap-10 sm:items-center ">
+                <li>Shop</li>
+                <li>Authors</li>
+                <li><span class="flex items-center gap-1">Categories
+
+                        <svg class="-mr-1 h-5 w-5 text-white" viewBox="0 0 20 20" fill="currentColor"
+                            aria-hidden="true">
+                            <path fill-rule="evenodd"
+                                d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                                clip-rule="evenodd" />
+                        </svg>
+                    </span>
+                </li>
+                <li>Contact</li>
+            </ul>
+        </nav>
     </header>
-    <img class="absolute top-0 left-0 w-full h-full object-cover opacity-60 z-5" src="images/bg-image.jpg" alt="Background Image">
-  </body>
+    <img class="absolute top-0 left-0 w-full h-full object-cover opacity-60 z-5" src="images/bg-image.jpg"
+        alt="Background Image">
+    <div class="relative z-10 text-blue-200 text-4xl text-center font-custom2  m-auto translate-y-32">
+        <p class="mx-5 animate__animated animate__fadeInLeft animate__slow">Find Books</p>
+        <p class="text mx-6 animate__animated animate__fadeInLeft animate__slower">For All Ages</p>
+<p class="animate__animated animate__fadeInLeft animate__slow my-4 text-lg text-center font-serif font-bold tracking-wide ">SALES UP TO 70% OFF</p>
+<button class="animate__animated animate__fadeIn animate__slow text-lg bg-gradient-to-b from-yellow-500 to-yellow-900 p-2 text-black mx-24 rounded-full">Shop Now</button>
+    </div>
+</body>
 
 </html>
