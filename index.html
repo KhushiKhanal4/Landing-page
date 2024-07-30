@@ -12,7 +12,7 @@
 <body class="bg-black h-screen overflow-hidden">
   <header class="relative z-10">
     <nav class="fixed top-0 w-full bg-opacity-0 sm:px-4 flex justify-between items-center z-20 ">
-      <img class="animate__animated animate__fadeInLeft animate__slow w-24" src="public/images/book_logo-Photoroom.png"
+      <img class="animate__animated animate__fadeInLeft animate__slow w-24" src="/images/book_logo-Photoroom.png"
         alt="Book Logo">
 
       <div class="animate__animated animate__fadeInRight animate__slow sm:hidden px-4 cursor-pointer">
@@ -22,7 +22,7 @@
       </div>
 
       <ul
-        class=" hidden text-yellow-500 cursor-pointer  text-lg animate__animated animate__fadeInDown animate__slow font-serif sm:flex sm:justify-between gap-10 sm:items-center ">
+        class=" hidden text-yellow-500 cursor-pointer  text-lg animate__animated animate__fadeInDown animate__slow font-serif text-shadow sm:flex sm:justify-between gap-10 sm:items-center ">
         <li class="hover:underline underline-offset-2 hover:text-blue-200">Shop</li>
         <li class="hover:underline underline-offset-2 hover:text-blue-200">Authors</li>
         <li><span class="hover:underline underline-offset-2 hover:text-blue-200 flex items-center gap-1">Categories
@@ -34,22 +34,33 @@
             </svg>
           </span>
         </li>
-        <li class="hover:underline underline-offset-2 hover:text-blue-200 hover:animate__animated animate__flash animate__slow">Contact</li>
+        <li
+          class="hover:underline underline-offset-2 hover:text-blue-200 hover:animate__animated animate__flash animate__slow">
+          Contact</li>
       </ul>
     </nav>
   </header>
-  <img class="absolute top-0 left-0 w-full h-full object-cover opacity-60 z-5" src="public/images/bg-image.jpg"
+  <img class="absolute top-0 left-0 w-full h-full object-cover opacity-60 z-5" src="/images/bg-image.jpg"
     alt="Background Image">
-  <div class="relative z-10 text-blue-200 text-4xl text-center font-custom2  m-auto translate-y-32">
-    <p class="mx-5 animate__animated animate__zoomIn  animate__slow">Find Books</p>
-    <p class="text mx-6 animate__animated animate__zoomIn animate__slower">For All Ages</p>
-    <p
-      class="animate__animated animate__zoomIn  animate__slow my-4 text-lg text-center font-serif font-bold tracking-wide ">
-      SALES UP TO 70% OFF</p>
-    <button
-      class="animate__animated animate__zoomIn animate__slow text-lg bg-gradient-to-b from-yellow-500 to-yellow-900 p-2 text-black mx-24 rounded-full">Shop
-      Now</button>
+  <div class="flex-col">
+    <div class="relative z-10 text-blue-200 text-5xl text-center font-custom2  m-auto translate-y-24 ">
+      <p class="mx-5 animate__animated animate__zoomIn  animate__slow text-shadow">Find Books</p>
+      <p class="text mx-6 animate__animated animate__zoomIn animate__slower text-shadow">For All Ages</p>
+      <p
+        class="animate__animated animate__zoomIn  animate__slow my-4 text-lg text-center font-serif font-bold tracking-wide text-shadow">
+        SALES UP TO 70% OFF</p>
+      <button
+        class="animate__animated animate__zoomIn animate__slow text-lg bg-gradient-to-b from-yellow-500 to-yellow-900 p-2 text-black mx-24 rounded-full hover:bg-gradient-to-t from-yellow-500 to-yellow-900 ">Shop
+        Now</button>
+    
+    <div class="flex gap-2 justify-center justify-items-center relative z-10 bottom-0 w-1/2 my-7 mx-auto">
+      <img class="w-1/2 h-1/2 mt-5 shadow-lg" src="/images/b1.jpg" alt="">
+      <img class="w-8/12 h-1/2 shadow-2xl" src="/images/b2.jpg" alt="">
+      <img class="w-1/2 h-1/2 mt-5 shadow-lg" src="/images/b3.jpg" alt="">
+
+    </div>
   </div>
+</div>
 </body>
 
 </html>
